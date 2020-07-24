@@ -61,4 +61,9 @@ public class UserController {
     public String welcome(Model model) {
         return "welcome";
     }
+    
+    @GetMapping("/new")
+    public String next() {
+    	return "new";
+    }
 }
